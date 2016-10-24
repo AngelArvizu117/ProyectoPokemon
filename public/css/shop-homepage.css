@@ -1,0 +1,63 @@
+
+
+body {
+    padding-top: 40px;
+
+}
+
+.caption {
+    height: auto;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    position: relative;
+    margin: 10px auto;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+
+.img{
+    
+    margin: 15px;
+    margin-left: -10px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+
+}
+
+.img:hover {
+
+            transform: rotate(-720deg);
+            -webkit-transform: rotate(-720deg); // IE 9
+            -moz-transform: rotate(-720deg); // Firefox
+            -o-transform: rotate(-720deg); // Safari and Chrome
+            -ms-transform: rotate(-720deg);
+           
+}
+
+.imgA {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+.imgB {
+        -moz-transform: scaleX(1);
+        -o-transform: scaleX(1);
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
